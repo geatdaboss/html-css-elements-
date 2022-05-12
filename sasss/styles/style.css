@@ -1,0 +1,18 @@
+body {
+  background-color: green;
+  color: #080f08;
+}
+
+header h1 {
+  font-size: 14px;
+}
+
+header ul {
+  list-style: none;
+}
+
+header a {
+  background-color: #f6bea8;
+  color: #080f08;
+}
+/*# sourceMappingURL=style.css.map */

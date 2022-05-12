@@ -1,0 +1,96 @@
+/* div{
+    width: 100px;
+    height: 100px;
+    background: lightcoral;
+    transition-duration: 4s;
+    transition-delay: 2s;
+    transition: width, margin-left;
+    transition: width 2s;
+} */
+
+/* div:hover{
+    width: 300px;  
+}
+
+#div1 {
+    transition-timing-function: ease;
+}
+
+#div2{
+    transition-timing-function: linear;
+}
+
+#div3{
+    transition-timing-function: ease-in;
+}
+
+#div4{
+    transition-timing-function: ease-out;
+}
+
+#div5{
+    transition-timing-function: ease-in-out;
+} */
+
+
+
+/* Sfida1 */
+.box{
+    width: 200px;
+    height: 200px;
+}
+
+.red{
+    background: red;
+    transition: 1s;
+    transform-origin: top left;
+}
+
+.blue{
+    background: blue;
+    transition: 1s;
+    transform-origin:top right ;
+}
+
+.yellow{
+    background: yellow;
+    transition: 1s;
+    transform-origin: bottom left;
+}
+
+.green{
+    background: green;
+    transition: 1s;
+    transform-origin: bottom right;
+}
+
+.text{
+    font-size: 24px;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.parent{
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.parent:hover .red,
+.parent:hover .green{
+    transform: rotate(90deg);
+}
+
+.parent:hover .blue,
+.parent:hover .yellow{
+    transform: rotate(-90deg);
+}

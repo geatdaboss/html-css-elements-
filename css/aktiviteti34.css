@@ -1,0 +1,24 @@
+#div1{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 100px;
+    padding: 10px;
+}
+
+
+#div2{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: 1px solid black;
+    /* transform: translate(-50px,-70px) */
+    /* transform: rotate(20deg); */
+    /* scale pranon parametra si 0, 0.5, 1, 2 etj */
+    /* transform: scale(2,3); */
+
+    transform: matrix(1, 2, -1, 1, 80, 80);
+    
+    
+}

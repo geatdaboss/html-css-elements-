@@ -1,0 +1,25 @@
+$bgcolor: rgb(246, 190, 168);
+$textcolor: rgb(8, 15, 8);
+
+@import "./colors";
+
+body{
+    background-color: $secondarycolor;
+    color: $textcolor;
+}
+
+
+header{
+    h1{
+        font-size: 14px;
+    }
+
+    ul{
+        list-style: none;
+    }
+
+    a{
+        background-color: $bgcolor;
+        color: $textcolor;
+    }
+}

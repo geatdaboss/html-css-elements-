@@ -1,0 +1,45 @@
+/* p.paragraf{
+    color: red;
+} */
+
+
+/* p,
+.paragraf{
+    color: red;
+} */
+
+/* 
+div p{
+    color: blue;
+} */
+
+/* div+p {
+    color: yellow;
+} */
+
+/* p~ul {
+    background-color: red;
+} */
+
+/* p:first-child{
+    color: red;
+} */
+
+
+/* p:last-child{
+    color: red;
+} */
+
+
+/* p:nth-child(2){
+    color: red;
+} */
+
+p:nth-of-type(odd){
+    color: red;
+}
+
+p:nth-of-type(even){
+    color: blue;
+}
+

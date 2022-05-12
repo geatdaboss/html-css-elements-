@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap;  */
+    /* justify-content: space-evenly; */
+    align-items: stretch;
+}
+
+.box{
+    width: 100px;
+    height: 60px;
+}
+
+
+.box1{
+    background-color: brown;
+}
+
+.box2{
+    background-color: chocolate;
+}
+
+.box3 {
+    background-color: darkblue;
+    order: 2;
+}
+
+.box4{
+    background-color: darkgoldenrod;
+}
+
+.box5{
+    background-color: darkmagenta;
+}
+
+.box6{
+    background-color: darksalmon;
+}

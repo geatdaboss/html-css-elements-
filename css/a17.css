@@ -1,0 +1,13 @@
+.description{
+    height: 80px;
+    width: 240px;
+    background-color: cornflowerblue;
+    border: 10px solid black;
+    padding: 20px;
+    margin: auto;
+}
+
+/* .radius-border{
+    border: 1px solid black;
+    border-radius: 12px;
+} */

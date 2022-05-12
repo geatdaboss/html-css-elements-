@@ -1,0 +1,54 @@
+/* body {
+    background-color: #673ab7;
+}
+
+h1 {
+    font-size: 40px;
+    color: #ffeb3b;
+}
+
+h2 {
+    font-size: 25px;
+    color: #ffc107;
+}
+
+p {
+    font-size: 18px;
+    color: #cddc39;
+}
+
+p {
+    color:rgb(83, 200, 33);
+}
+
+em {
+    color: #ff5722;
+}
+
+h1, h2, p {
+    text-align: center;
+} */
+
+
+
+/* p { */
+   /* letter-spacing: 15px; */
+   /* word-spacing: -15px; */
+   /* text-indent: 30px; */
+   /* text-align: justify; */
+   /* text-decoration: line-through;
+   text-decoration-color: chocolate; */
+   /* text-transform: capitalize; */
+   /* line-height: 50px; */
+/* font-family: 'Irish Grover', cursive; */
+
+/* p{
+    font-family: 'Irish Grover', cursive;
+} */
+
+
+
+
+li.a{
+    list-style-type: disc;
+}

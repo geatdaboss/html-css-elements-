@@ -1,0 +1,43 @@
+body{
+    box-sizing: border-box;
+    
+}
+
+
+.right-header {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 1px 1100px 0px ;
+    align-items: center;
+
+}
+
+.header-title {
+    margin: 0 ;
+}
+
+.header-hi{
+    margin: 0;
+
+}
+
+.right-header{
+    box-shadow: 0px 7px 30px -10px rgba(132, 164, 180, 0.7);;
+
+}
+
+.header {
+padding: 10px 20px 0px;
+}
+
+.container {
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.expense-title {
+    font-size: 17px;
+    margin: 0;
+}
+
